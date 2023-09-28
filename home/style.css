@@ -1,0 +1,31 @@
+/* Estilos para o fundo do cardápio */
+body {
+    font-family: Lora;
+    margin: 0; /* Remover margens padrão */
+}
+
+/* Estilos para tornar responsivo */
+@media (max-width: 768px) {
+    .menu-box {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+/* Estilos para o box principal */
+.menu-box{
+    background-color: #ECE8DE;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+h1{
+    text-align: center;
+}
+
+/* Estilos para os itens do cardápio */
+.menu-item {
+    margin-bottom: 10px;
+}
+
